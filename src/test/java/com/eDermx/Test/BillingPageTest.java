@@ -1,0 +1,29 @@
+package com.eDermx.Test;
+
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import com.eDermx.PageObjects.BillingPage;
+import com.eDermx.PageObjects.LoginPage;
+import com.eDermx.generics.TestBase;
+
+public class BillingPageTest extends TestBase {
+
+	SoftAssert sa=new SoftAssert();
+	
+
+	@Test
+	public void LoginAction() throws InterruptedException {
+		LoginPage lp=new LoginPage(TestBase.driver);
+		sa.assertTrue(lp.positiveLoginTest());
+		sa.assertTrue(lp.selectPractice());
+		
+		BillingPage bp=new BillingPage(TestBase.driver);
+		bp.visibilityCheckOfAllElements();
+		bp.clickOnTabs();
+		lp.signOut();
+	}
+	
+	
+
+}

@@ -1,0 +1,4 @@
+# Created at 2022-04-21T14:10:07.199
+Boot Manifest-JAR contains absolute paths in classpath 'D:\pritam_workspace\eDermx\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

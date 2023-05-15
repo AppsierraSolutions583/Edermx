@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="eDermx">
+	<listeners>
+		<listener class-name="com.eDermx.generics.CustomListener" />
+	</listeners>
+
+	<test thread-count="1" name="EndToEnd">
+		<classes>
+			<class name="com.eDermx.Test.EDermxEndToEnd" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,54 @@
+2022-05-23 20:05:18,570  INFO [main] TestBase:58 - launching chrome browser
+ 2022-05-23 20:05:24,411  INFO [main] TestBase:70 - Navigating to The URL 
+ 2022-05-23 20:05:24,443  INFO [main] CustomListener:14 - logInNegativeTest is started
+ 2022-05-23 20:05:26,151  INFO [main] LoginPage:83 - Negative SignIn is Verified.
+ 2022-05-23 20:05:26,159  INFO [main] CustomListener:20 - logInNegative Test is passed
+ 2022-05-23 20:05:26,168  INFO [main] CustomListener:14 - logInPositiveTest is started
+ 2022-05-23 20:05:32,850  INFO [main] LoginPage:74 - SignIn is Done.
+ 2022-05-23 20:05:36,921  INFO [main] LoginPage:95 - Dermatology of Boca is Selected as Practice.
+ 2022-05-23 20:05:36,970  INFO [main] CustomListener:20 - logInPositive Test is passed
+ 2022-05-23 20:05:36,972  INFO [main] CustomListener:14 - dashBoardTest is started
+ 2022-05-23 20:05:37,048  INFO [main] DashboardPage:79 - Checked Dashboard
+ 2022-05-23 20:05:40,383  INFO [main] DashboardPage:81 - Checked Visit Reports
+ 2022-05-23 20:05:40,453  INFO [main] DashboardPage:83 - Checked the username
+ 2022-05-23 20:05:40,526  INFO [main] DashboardPage:85 - Checked the Selected Practice
+ 2022-05-23 20:05:40,596  INFO [main] DashboardPage:87 - Checked The Schedule
+ 2022-05-23 20:05:40,662  INFO [main] DashboardPage:89 - Checked The Patients
+ 2022-05-23 20:05:40,737  INFO [main] DashboardPage:91 - Checked The Billing
+ 2022-05-23 20:05:40,803  INFO [main] DashboardPage:93 - Checked The ePrescribing
+ 2022-05-23 20:05:40,872  INFO [main] DashboardPage:95 - Checked The  Pathology
+ 2022-05-23 20:05:40,944  INFO [main] DashboardPage:97 - Checked The Document Management
+ 2022-05-23 20:05:41,016  INFO [main] DashboardPage:99 - Checked The Reports
+ 2022-05-23 20:05:41,084  INFO [main] DashboardPage:101 - Checked The Sraech Bar
+ 2022-05-23 20:05:41,158  INFO [main] DashboardPage:103 - Checked The LogOut
+ 2022-05-23 20:05:41,218  INFO [main] DashboardPage:105 - Checked The Setting
+ 2022-05-23 20:05:41,219  INFO [main] DashboardPage:110 - Everything Is Displayed.
+ 2022-05-23 20:05:52,576  INFO [main] CustomListener:20 - dashBoard Test is passed
+ 2022-05-23 20:05:52,578  INFO [main] CustomListener:14 - scheduleTest is started
+ 2022-05-23 20:05:54,715  INFO [main] SchedulePage:224 - Landed at Schedule Page.
+ 2022-05-23 20:05:54,794  INFO [main] SchedulePage:227 - Checked Visibility of registrationTab.
+ 2022-05-23 20:05:54,861  INFO [main] SchedulePage:229 - Checked Visibility of insuranceTab.
+ 2022-05-23 20:05:54,927  INFO [main] SchedulePage:231 - Checked Visibility of rescheduleTab.
+ 2022-05-23 20:05:55,033  INFO [main] SchedulePage:233 - Checked Visibility of the templatesTab.
+ 2022-05-23 20:05:55,096  INFO [main] SchedulePage:235 - Checked Visibility of typesTab.
+ 2022-05-23 20:05:55,164  INFO [main] SchedulePage:237 - Checked Visibility of blocksTab.
+ 2022-05-23 20:06:00,220  INFO [main] SchedulePage:239 - Checked Visibility of The Message Shown.
+ 2022-05-23 20:06:00,220  INFO [main] SchedulePage:243 - Everything of Schedule Page Is Displayed.
+ 2022-05-23 20:06:07,388  INFO [main] SchedulePage:252 - Clicked on Add new appointment.
+ 2022-05-23 20:06:08,208  INFO [main] SchedulePage:254 - Clicked on Quick Add.
+ 2022-05-23 20:06:14,158  INFO [main] SchedulePage:271 - Add new patient Form filled.
+ 2022-05-23 20:06:42,475  INFO [main] SchedulePage:300 - Appointment Details are Filled.
+ 2022-05-23 20:06:46,592  INFO [main] SchedulePage:309 - Time Slot is Selected.
+ 2022-05-23 20:06:51,648  INFO [main] SchedulePage:315 - Appoinement is scheduled.
+ 2022-05-23 20:07:02,275  INFO [main] SchedulePage:330 - Booking is Confirmed.
+ 2022-05-23 20:07:08,553  INFO [main] SchedulePage:344 - Booking is Cancelled.
+ 2022-05-23 20:07:11,960  INFO [main] CustomListener:20 - schedule Test is passed
+ 2022-05-23 20:07:11,963  INFO [main] CustomListener:14 - patientTest is started
+ 2022-05-23 20:07:44,282  INFO [main] CustomListener:20 - patient Test is passed
+ 2022-05-23 20:07:44,288  INFO [main] CustomListener:14 - BillingTest is started
+ 2022-05-23 20:08:11,303  INFO [main] CustomListener:20 - Billing Test is passed
+ 2022-05-23 20:08:11,305  INFO [main] CustomListener:14 - logOutTest is started
+ 2022-05-23 20:08:15,011  INFO [main] LoginPage:108 - LogOut is Done.
+ 2022-05-23 20:08:15,013  INFO [main] CustomListener:20 - logOut Test is passed
+ 2022-05-23 20:08:17,167  INFO [main] TestBase:86 - Browser closed
+ 
